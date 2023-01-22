@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:src="@drawable/profile"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        />
+    
+    <EditText
+        android:id="@+id/set_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:hint="Имя"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/edit"
+        />
+
+    <EditText
+        android:id="@+id/set_user_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_user_name"
+        android:text="Hi there! I'm Using EnergyHack!"
+        android:textAlignment="center"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/status"
+        />
+
+    <Button
+        android:id="@+id/save_user_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_user_status"
+        android:text="Сохранить"
+        android:backgroundTint="@color/orange"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/save"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

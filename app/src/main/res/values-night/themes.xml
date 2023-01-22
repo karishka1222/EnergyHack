@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EnergyHack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

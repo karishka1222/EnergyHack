@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "764874143382",
+    "project_id": "energyhackchat",
+    "storage_bucket": "energyhackchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764874143382:android:3eb5e0c3139ceb548bf4b7",
+        "android_client_info": {
+          "package_name": "com.example.energyhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764874143382-gdl6h2jbou46vi8l33bq9eu6qjmad3ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.energyhack",
+            "certificate_hash": "652323747a2e7ee4b87d60b6f3492493a2ba09bc"
+          }
+        },
+        {
+          "client_id": "764874143382-rkhqeofd5bru8dotdek7tb9092o6kal3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApBZ7hYFsukGTmrPniiBuzCrj5chb628g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764874143382-rkhqeofd5bru8dotdek7tb9092o6kal3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
