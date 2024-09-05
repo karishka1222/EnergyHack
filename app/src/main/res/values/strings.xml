@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EnergyHack</string>
+    <string name="enter">Вход/Регистрация</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="create_new_account">Создать новый аккаунт</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Имя</string>
+    <string name="confirm_password">Подтверждение пароля</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="select_user">Поиск друзей</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="my_settings">My Settings</string>
+    <string name="my_profile">My profile</string>
+    <string name="save">Save</string>
+    <string name="entei">Войти</string>
+    <string name="profile">Profile</string>
+    <string name="change_name">Изменить имя</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="new_name">Введите новое имя</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="current_password">Текущий пароль</string>
+</resources>

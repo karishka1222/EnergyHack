@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/background_settings_profile"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+            android:id="@+id/krasivo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginEnd="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:background="@drawable/krasivie"
+            android:layout_marginTop="@dimen/_50sdp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <FrameLayout
+            android:id="@+id/layoutImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintEnd_toEndOf="@id/krasivo"
+            app:layout_constraintBottom_toBottomOf="@id/krasivo">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/background_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/oswald"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_17ssp"
+            app:layout_constraintTop_toTopOf="@id/krasivo"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/number_of_friends"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:fontFamily="@font/oswald"
+            android:text="9"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_23ssp"
+            android:layout_marginTop="@dimen/_35sdp"
+            app:layout_constraintStart_toStartOf="@+id/krasivo"
+            app:layout_constraintTop_toTopOf="@id/krasivo"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/friends"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:fontFamily="@font/comfortaa"
+            android:text="друзей"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_47sdp"
+            app:layout_constraintTop_toTopOf="@id/krasivo"
+            app:layout_constraintStart_toStartOf="@id/krasivo"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/number_of_days"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:fontFamily="@font/oswald"
+            android:text="1"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_23ssp"
+            android:layout_marginTop="@dimen/_75sdp"
+            app:layout_constraintStart_toStartOf="@+id/krasivo"
+            app:layout_constraintTop_toTopOf="@id/krasivo"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:fontFamily="@font/comfortaa"
+            android:text="день"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_88sdp"
+            app:layout_constraintTop_toTopOf="@id/krasivo"
+            app:layout_constraintStart_toStartOf="@id/krasivo"
+            android:textStyle="bold"
+            />
+
+    <LinearLayout
+        android:id="@+id/vertical_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/krasivo">
+
+        <TextView
+            android:id="@+id/change_name"
+            android:layout_width="match_parent"
+            android:text="@string/change_name"
+            android:gravity="center"
+            android:fontFamily="@font/oswald"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/main_text"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/input_new_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:layout_marginEnd="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/new_name"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:fontFamily="@font/comfortaa"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/new_name"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:layout_marginEnd="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/change"
+            android:textColor="@color/main_text"
+            app:layout_constraintTop_toBottomOf="@id/krasivo"
+            />
+
+        <TextView
+            android:id="@+id/change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_password"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/main_text"
+            android:fontFamily="@font/oswald"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/input_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:layout_marginEnd="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/current_password"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:fontFamily="@font/comfortaa"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/confirm_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:layout_marginEnd="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/new_password"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:fontFamily="@font/comfortaa"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/new_password"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:layout_marginEnd="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/change"
+            android:layout_gravity="center"
+            app:cornerRadius="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@id/krasivo"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSighOut"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:layout_marginEnd="@dimen/_90sdp"
+            android:text="Выйти"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="@font/comfortaa"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/main_text"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:cornerRadius="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@id/krasivo"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@color/orange"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_profile"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gg_profile"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_calendar"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gg_calendar"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_map"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gg_map"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_users"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gg_users"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_chat"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gg_chat"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

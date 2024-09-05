@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#EAA877</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_text">#372212</color>
+    <color name="edit_button">#EAEAEA</color>
+    <color name="icon_background">#DBE2EF</color>
+    <color name="error">#D72323</color>
+    <color name="received_message">#F08A5D</color>
+</resources>
