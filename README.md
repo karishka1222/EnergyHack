@@ -36,7 +36,7 @@ Some sections are not finished.
 
 ## Authors
 
-### **🍓SOT Team🍓**
+### **🍓Team SOT🍓**
 
 Team members:
 * Arina Zimina - developer, teamleader
