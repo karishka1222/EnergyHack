@@ -34,6 +34,16 @@ Some sections are not finished.
 
 
 
+## Authors
+
+### **🍓SOT Team🍓**
+
+Team members:
+* Arina Zimina - developer, teamleader
+* Карина Синятуллина - developer
+* Юлия Чезрякова - editor
+* Ирина Колобова - designer
+
 ## Frameworks and technologies used
 
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
