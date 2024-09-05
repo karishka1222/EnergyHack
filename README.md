@@ -4,11 +4,11 @@ _Read this in other language: [English](README.md), [Русский](README.ru.m
 
 ## Achievements
 
-🥇 This project was created to participate in the competition "В вышку за проектом" and took [1st place](https://drive.google.com/file/d/1hEoFZsKKYor89zwm0FUqFJTRCfnkleVQ/view?usp=sharing)
+🥇 This project was created to participate in the competition "В вышку за проектом" and took 1st place
 
 The project was also presented:
-- 🏅 [3rd place](https://drive.google.com/file/d/1rg_rBqlYQ2uRNS-Sl4kd5ZdpguXqHG2n/view?usp=sharing) - 54-th city conference Scientific Society of students "Эврика"
-- 🏅 [3rd place](https://drive.google.com/file/d/1eONtAspcGHBTFQoHGDsD_KrESOHZowr7/view?usp=sharing) - Competition of scientific research works of schoolchildren Applied Informatics - 2023 from the National Research Nizhny Novgorod State University named after N.I. Lobachevsky
+- 🏅 3rd place - 54-th city conference Scientific Society of students "Эврика"
+- 🏅 3rd place - Competition of scientific research works of schoolchildren Applied Informatics - 2023 from the National Research Nizhny Novgorod State University named after N.I. Lobachevsky
 
 ## Project Description
 
