@@ -40,9 +40,9 @@ Some sections are not finished.
 
 Team members:
 * Arina Zimina - developer, teamleader
-* Карина Синятуллина - developer
-* Юлия Чезрякова - editor
-* Ирина Колобова - designer
+* Karina Siniatullina - developer
+* Julia Chezryakova - editor
+* Irina Kolobova - designer
 
 ## Frameworks and technologies used
 
