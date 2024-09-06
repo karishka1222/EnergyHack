@@ -38,15 +38,8 @@ Here the user can find like-minded people in the chat, places for walking / trai
 
 ## Current status of the project
 
-<img src="app/src/main/res/drawable/demo/login.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/reg1.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/welcome.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/profile.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/map1.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/map2.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/users.jpg" width="150" />
-<img src="app/src/main/res/drawable/demo/chat.jpg" width="150" />
-
+<img src="app/src/main/res/drawable/demo/demo1.jpg" width="200" />
+<img src="app/src/main/res/drawable/demo/demo2.jpg" width="200" />
 
 ## Authors
 
