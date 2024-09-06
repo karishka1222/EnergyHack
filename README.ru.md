@@ -38,8 +38,8 @@ _Прочитать на другом языке: [English](README.md), [Рус�
 
 ## Текущее состояние проекта
 
-<img src="app/src/main/res/drawable/demo/demo1.jpg" width="200" />
-<img src="app/src/main/res/drawable/demo/demo2.jpg" width="200" />
+<img src="app/src/main/res/drawable/demo/demo1.jpg" width="500" />
+<img src="app/src/main/res/drawable/demo/demo2.jpg" width="500" />
 
 ## Авторы
 
