@@ -14,9 +14,9 @@ The project was also presented:
 
 The EnergyHack application is implemented to bring together people seeking to form healthy habits and lead an active lifestyle.
 
-Here you can find like-minded people in the chat, places for walking/training on the map, mark your progress in the calendar and receive motivating advice.
+Here the user can find like-minded people in the chat, places for walking / training on the map (currently only in the Nizhny Novgorod region), mark their successes in the calendar and get motivating advice.
 
-Some sections are not finished.
+❗❗❗The project is under development
 
 ## Feature List
 
@@ -25,13 +25,18 @@ Some sections are not finished.
 - Automatic detection of the user's current location.
 - A list of all users of the application.
 - Create a chat with any of the users.
-- Task of the day.
-- The ability to mark completed tasks and track progress.
-- A new motivating quote every day.
-- Useful tips.
 
-## Demo
+## Plans for improvement
 
+- Make the calendar page complete: add a calendar, tips, tasks of the day, motivational quotes, the ability to mark the progress of the task of the day
+- Ability to add friends: add a friends section for each user and the ability to send/receive/reject friend requests
+- Ability to search for users: add a search bar by name. Also add filtering to be able to find people by interests
+- Change of personal data: add the ability to change personal data: username, password, photo
+- Adding descriptions for labels: Add a detailed description for all labels to attract users and give them a good idea of the specified location
+- Adding labels not only for the Nizhny Novgorod region: expanding the area of labels
+- Chat improvement: adjust the design and functionality
+
+## Current status of the project
 
 
 ## Authors
