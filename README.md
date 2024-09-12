@@ -46,7 +46,7 @@ Here the user can find like-minded people in the chat, places for walking / trai
 ### **🍓Team SOT🍓**
 
 Team members:
-* Arina Zimina - developer, teamleader
+* Arina Zimina - teamleader
 * Karina Siniatullina - developer
 * Julia Chezryakova - editor
 * Irina Kolobova - designer
